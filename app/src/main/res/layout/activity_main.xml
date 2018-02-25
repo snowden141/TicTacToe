@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shobh.tictactoe.MainActivity"
+    android:background="#ADFF2F">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:textSize="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:background="#FFD7"
+        />
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="30sp"
+        android:background="#00FF00"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"
+        android:background="#00fa9a"
+        />
+
+    <Button
+        android:id="@+id/b4"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        android:background="#1E90FF"
+        />
+    <Button
+        android:id="@+id/b5"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="140dp"
+        android:background="#9400D3"
+        />
+
+    <Button
+        android:id="@+id/b6"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="250dp"
+        android:background="#FF69B4"
+        />
+
+    <Button
+        android:id="@+id/b7"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFF00"
+        />
+
+
+    <Button
+        android:id="@+id/b8"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="140dp"
+        android:background="	#FF4500"
+        />
+
+    <Button
+        android:id="@+id/b9"
+        android:textSize="30sp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="250dp"
+        android:background="#FF0000"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/pr1"
+        android:onClick="reset"
+        android:background="#87CEFA"
+       />
+</RelativeLayout>
